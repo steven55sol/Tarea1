@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#DCDCDC">
+
+    <TextView
+        android:text="@string/titulo_app"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="30dp"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/edtNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_num1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_num2"
+        android:inputType="number" />
+
+
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1F7A5B"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btn_sumar" />
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btn_restar"
+        android:backgroundTint="#D32F2F"/>
+
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:textSize="22dp"
+        android:text="@string/lbl_resultado" />
+
+</LinearLayout>

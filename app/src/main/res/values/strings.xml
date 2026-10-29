@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SumadoraUAE</string>
+    <string name="titulo_app">INTERFAZ PRINCIPAL</string>
+    <string name="hint_num1">Ingrese el primer número</string>
+    <string name="hint_num2">Ingrese el segundo número</string>
+    <string name="btn_sumar">CALCULAR SUMA</string>
+    <string name="btn_restar">CALCULAR RESTA</string>
+    <string name="msg_resultado_suma">La suma es: %d</string>
+    <string name="msg_resultado_resta">La resta es: %d</string>
+    <string name="lbl_resultado">Resultado:</string>
+    <string name="msg_error_vacio">Este campo no puede estar vacío</string>
+    <string name="msg_error_numero">Por favor ingrese solo números</string>
+    <string name="msg_exito">Operación realizada con éxito</string>
+</resources>
